@@ -21,7 +21,7 @@ COPY ./Pipfile.lock /api
 COPY ./README.md /api
 COPY ./local.ini /api
 
-# # 設定容器的工作目錄為 /crawler，後續的指令都在這個目錄下執行
+# # 設定容器的工作目錄為 /api，後續的指令都在這個目錄下執行
 WORKDIR /api/
 
 # # 根據 Pipfile.lock 安裝所有依賴（確保環境一致性）
