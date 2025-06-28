@@ -7,6 +7,7 @@ from sqlalchemy import create_engine, engine  # 用來建立資料庫連線
 from api.config import MYSQL_ACCOUNT, MYSQL_HOST, MYSQL_PASSWORD, MYSQL_PORT
 
 
+
 # 建立連接到 MySQL 資料庫的函式，回傳一個 SQLAlchemy 的連線物件
 def get_mysql_financialdata_conn() -> engine.base.Connection:
     # 組成資料庫連線字串，使用 pymysql 作為 driver
