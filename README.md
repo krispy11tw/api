@@ -34,11 +34,11 @@
 
 #### build docker image
 
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_api:0.0.1 .
+    docker build -f with.env.Dockerfile -t krispy11tw/sixvacation_api:0.0.1 .
 
 #### push docker image
 
-    docker push linsamtw/tibame_api:0.0.1
+    docker push krispy11tw/sixvacation_api:0.0.1
 
 #### 啟動 api
 
